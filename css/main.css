@@ -1,13 +1,20 @@
 /* Css Style */
   body {
-    text-align:center;
+    background:#ffffff;
+    text-align: center;
   }
-  #navbar {
-    text-align:right;
+  nav {
+    text-align: right;
   }
-  .anchor {
+
+  nav ul {
     font-family: Arial, sans-serif;
     font-size: 14px;
+    list-style-type: none;
+  }
+
+  nav li {
+    display: inline;
   }
   .button {
     font-family: Arial,sans-serif;
