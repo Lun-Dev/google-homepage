@@ -2,8 +2,27 @@
 <html>
   <head>
     <title>Google Homepage</title>
+    <style>
+      .anchor {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+      }
+      .button {
+        font-family: Arial,sans-serif;
+        font-size: 14px;
+      }
+    </style>
   </head>
   <body>
-    <img src="images/google_logo.png">
+    <nav>
+      <a href="gmail.com" class="anchor">Gmail</a>
+      <a href="google.com/image" class="anchor">Image</a>
+    </nav>
+    <img src="images/google_logo.png" alt="google_logo" id="logo">
+    <form action="https://www.google.com/search?q=">
+      <input type="text">
+      <button type="submit" class="button">Google Search</button>
+      <button type="submit" class="button">I'm Feeling Lucky</button>
+    </form>
   </body>
 </html>
