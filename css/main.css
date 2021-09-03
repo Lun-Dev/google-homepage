@@ -4,6 +4,7 @@
   body {
     background:#ffffff;
     text-align: center;
+    font-family: arial, sans-serif ;
   }
   nav {
     text-align: right;
@@ -38,3 +39,32 @@
     margin: 11px 4px;
     padding: 0 16px;
   }
+
+/* Footer */
+  footer {
+      position: fixed;
+      background-color: #DADCE0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+  }
+
+  .footer-stack {
+    display: inline-block;
+  }
+  
+  .user-country {
+      text-align: left;
+      padding: 15px 30px;
+      font-size: 15px;
+  }
+
+  .footer-nav {
+      list-style-type: none;
+  }
+
+  footer li {
+      display: inline;
+  }
+
+ 
