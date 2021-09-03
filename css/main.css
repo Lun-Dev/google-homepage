@@ -49,22 +49,32 @@
       width: 100%;
   }
 
+  footer li {
+    display: inline;
+}
+
   .footer-stack {
-    display: inline-block;
+    display: flex;
   }
-  
+
+  .footer-selection{
+      flex: 1;
+  }
+
+  .footer-selection:first-child{
+    text-align: left;
+  }
+
+  .footer-selection:nth-child(2){
+    text-align: right;
+  }
+
   .user-country {
       text-align: left;
       padding: 15px 30px;
       font-size: 15px;
   }
 
-  .footer-nav {
-      list-style-type: none;
-  }
 
-  footer li {
-      display: inline;
-  }
 
  
