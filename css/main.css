@@ -5,26 +5,32 @@
     background:#ffffff;
     text-align: center;
     font-family: arial, sans-serif ;
+    margin: 0;
+    padding: 0;
   }
 
   .container {
     display: flex;
-    height: 100%;
+    height: 100vh;
     flex-direction: column;
   }
 
-  nav {
+/* Flex-box Control */
+  .sec {
+      flex-grow: 1;
+  }
+  .sec1 {
     font-size: 13px;
     list-style-type: none;
     display: block;
-
   }
 
-  nav ul {
+/* List control */
+  .sec-ul {
     float: right
   }
 
-  nav li {
+  li {
     display: inline-block;
   }
 
@@ -49,15 +55,11 @@
   }
 
 /* Footer */
-  footer {
-      position: fixed;
+  .sec5 {
       background-color: #DADCE0;
-      bottom: 0;
-      left: 0;
-      width: 100%;
   }
 
-  footer li {
+  .sec5 li {
     display: inline;
 }
 
