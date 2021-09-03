@@ -16,15 +16,28 @@
         <li><a href="https://www.google.com/imghp?hl=en">Sign in</a></li>
       </ul>
     </nav>
+    
     <img src="images/google_logo.png" alt="google_logo" id="logo">
+
     <div class="search-container">
-      <form action="https://www.google.com/search?q=">
+      <form action="https://www.google.com/search" method="GET">
         <span class="material-icons-outlined">search</span>
-        <input type="text">
-        <button type="submit" class="button">Google Search</button>
-        <button type="submit" class="button">I'm Feeling Lucky</button>
+        <input type="text" name="q"><br><br>
+          <input type="submit" class="search-button" value="Google Search">
+          <a href="https://www.google.com/doodles">
+            <input type="button" class="search-button" value="I'm Feeling Lucky" 
+            href="https://www.google.com/doodles">
+          </a>
       </form>
     </div>
-    <p>Google offered in:</p>
+
+    <div class="google-offer">
+      <p>Google offered in: 
+        <a href="https://www.google.com/?hl=zh-TW">中文（繁體）</a>
+        <a href="https://www.google.com/?hl=zh-CN">中文(简体）</a>
+      </p>
+    </div>
+
+
   </body>
 </html>

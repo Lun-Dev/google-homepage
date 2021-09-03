@@ -29,7 +29,8 @@
     text-decoration: underline;
   }
 
-  .button {
+/* Button Style */  
+  .search-button {
     font-family: Arial,sans-serif;
     font-size: 14px;
     border-radius: 4px;
