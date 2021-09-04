@@ -1,21 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp');
 
 /* Css Style */
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #000000;
+    opacity: 0.87;
+    text-decoration: none;
+}
+
 .container {
     display: flex; /* Turn on flexbox */
     flex-direction: column; /* Make direction vertical */
     height: 100vh; /* 100vh means the flexbox will extend to end of screen*/
     align-items: center; /* */
-    border: 10px solid goldenrod;
 }
 
 .nav {
     margin-left: auto; 
+    padding: 0 0 83px 0;
 }
 
 .nav-selection {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.nav-selection a {
+    opacity: 0.87;
+    color: #000000;
+}
+
+.nav-selection a:link {
+    text-decoration: none;
+}
+
+.nav-selection a:hover {
+    text-decoration: underline;
 }
 
 .google-logo {
@@ -26,4 +48,16 @@
 .google-mic {
     height: 24px;
     width: 24px;
+}
+
+#search-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-box {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: auto;
+    max-width: 584px;
 }
