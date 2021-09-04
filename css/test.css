@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp');
+
+/* Css Style */
+.container {
+    display: flex; /* Turn on flexbox */
+    flex-direction: column; /* Make direction vertical */
+    height: 100vh; /* 100vh means the flexbox will extend to end of screen*/
+    align-items: center; /* */
+    border: 10px solid goldenrod;
+}
+
+.nav {
+    margin-left: auto; 
+}
+
+.nav-selection {
+    display: flex;
+    flex-direction: row;
+}
+
+.google-logo {
+    height: 92px;
+    width: 272px;
+}
+
+.google-mic {
+    height: 24px;
+    width: 24px;
+}
