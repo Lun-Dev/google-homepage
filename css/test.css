@@ -110,5 +110,22 @@ footer {
 .foot-selection {
     display: flex;
     flex-direction: row;
-    border: 1px solid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.ft {
+    flex-grow: 1;
+}
+
+.ft a{
+    text-decoration: none;
+    color: #70757a;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.ft ul {
+    padding: 0;
 }
