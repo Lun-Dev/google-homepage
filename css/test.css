@@ -12,13 +12,12 @@ body {
 .container {
     display: flex; /* Turn on flexbox */
     flex-direction: column; /* Make direction vertical */
-    height: 100vh; /* 100vh means the flexbox will extend to end of screen*/
+    max-height: 100vh; /* 100vh means the flexbox will extend to end of screen*/
     align-items: center; /* */
 }
 
 .nav {
     margin-left: auto; 
-    padding: 0 0 83px 0;
 }
 
 .nav-selection {
@@ -43,11 +42,14 @@ body {
 .google-logo {
     height: 92px;
     width: 272px;
+    padding-top: 90px;
+    padding-bottom: 30px;
 }
 
 .google-mic {
-    height: 24px;
-    width: 24px;
+    height: 20px;
+    width: 20px;
+    padding: 10px 10px 10px 0px;
 }
 
 #search-form {
@@ -55,9 +57,32 @@ body {
     flex-direction: row;
 }
 
+#search-form span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    padding: 10px 0px 10px 10px; 
+}
+
+#search-form input {
+    width: auto;
+    min-width: 450px;
+    margin: 5px 0px 5px 0px;
+    border: 0; /* Makes border disappear */
+    outline: 0; /* Makes border disappear when mouse click */
+}
+
 .search-box {
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     width: auto;
     max-width: 584px;
+}
+
+.some-buttons {
+    padding-top: 25px;
+}
+
+.google-offer {
+    padding-top: 10px;
 }
