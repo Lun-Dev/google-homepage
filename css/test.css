@@ -13,11 +13,11 @@ body {
     display: flex; /* Turn on flexbox */
     flex-direction: column; /* Make direction vertical */
     max-height: 100vh; /* 100vh means the flexbox will extend to end of screen*/
-    align-items: center; /* */
+    align-items: center; /* Makes all content in the flexbox align to center */
 }
 
 .nav {
-    margin-left: auto; 
+    margin-left: auto; /* Pushes the Navbar to the right because it gave all remaining space to the left margin */
 }
 
 .nav-selection {
@@ -47,8 +47,8 @@ body {
 }
 
 .google-mic {
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: 24px;
     padding: 10px 10px 10px 0px;
 }
 
@@ -59,8 +59,8 @@ body {
 
 #search-form span {
     color: #9aa0a6;
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: 24px;
     padding: 10px 0px 10px 10px; 
 }
 
@@ -77,6 +77,11 @@ body {
     border-radius: 24px;
     width: auto;
     max-width: 584px;
+}
+
+.search-box:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
 }
 
 .some-buttons {
