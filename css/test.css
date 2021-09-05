@@ -12,8 +12,13 @@ body {
 .container {
     display: flex; /* Turn on flexbox */
     flex-direction: column; /* Make direction vertical */
-    max-height: 100vh; /* 100vh means the flexbox will extend to end of screen*/
+    height: 100vh; /* 100vh means the flexbox will extend to end of screen*/
     align-items: center; /* Makes all content in the flexbox align to center */
+    border: 10px solid black;
+}
+
+.fb {
+    border: 10px solid gold;
 }
 
 .nav {
@@ -21,8 +26,8 @@ body {
 }
 
 .nav-selection {
-    display: flex;
-    flex-direction: row;
+    display: flex; /* Turn on flexbox */
+    flex-direction: row; /* Flex sideways */ 
     align-items: center;
 }
 
@@ -90,4 +95,8 @@ body {
 
 .google-offer {
     padding-top: 10px;
+}
+
+footer {
+    margin-top: auto; /* Makes top margin auto expand so that element is pushed to the bottom */
 }
