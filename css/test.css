@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp');
 
 /* Css Style */
-body {
+html, body {
     font-family: arial, sans-serif;
     font-size: 13px;
     color: #000000;
     opacity: 0.87;
     text-decoration: none;
+    margin: 0; /* Removes the space created by the margin */
 }
 
 .container {
@@ -14,11 +15,6 @@ body {
     flex-direction: column; /* Make direction vertical */
     height: 100vh; /* 100vh means the flexbox will extend to end of screen*/
     align-items: center; /* Makes all content in the flexbox align to center */
-    border: 10px solid black;
-}
-
-.fb {
-    border: 10px solid gold;
 }
 
 .nav {
@@ -98,5 +94,21 @@ body {
 }
 
 footer {
+    width: 100vw;
+    background: #f2f2f2;
+    background-attachment: scroll; /* enter comment */
     margin-top: auto; /* Makes top margin auto expand so that element is pushed to the bottom */
+}
+
+.user-country {
+    padding: 15px 30px;
+    border-bottom: 2px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.foot-selection {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
 }
