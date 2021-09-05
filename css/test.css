@@ -30,6 +30,7 @@ html, body {
 .nav-selection a {
     opacity: 0.87;
     color: #000000;
+    padding-left: 15px;
 }
 
 .nav-selection a:link {
@@ -124,6 +125,7 @@ footer {
     color: #70757a;
     font-size: 14px;
     padding: 15px;
+    white-space: nowrap
 }
 
 .ft ul {
