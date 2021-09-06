@@ -5,7 +5,6 @@ html, body {
     font-family: arial, sans-serif;
     font-size: 13px;
     color: #000000;
-    opacity: 0.87;
     text-decoration: none;
     margin: 0; /* Removes the space created by the margin */
 }
@@ -28,9 +27,13 @@ html, body {
 }
 
 .nav-selection a {
-    opacity: 0.87;
+    opacity: 0.55;
     color: #000000;
     padding-left: 15px;
+}
+
+.app-icon {
+    padding-right: 15px;
 }
 
 .nav-selection a:link {
@@ -39,6 +42,20 @@ html, body {
 
 .nav-selection a:hover {
     text-decoration: underline;
+}
+
+#sign-in {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background-color: #4584f0;
+    padding: 0 12px;
+    line-height: 28px;
+    -webkit-border-radius; 2px;
+    margin-right: 30px;
+    opacity: 1;
 }
 
 .google-logo {
@@ -87,11 +104,30 @@ html, body {
 }
 
 .some-buttons {
-    padding-top: 25px;
+    height: 70px;
+    padding-top: 19px;
+    z-index: 0;
 }
 
-.google-offer {
-    padding-top: 10px;
+.some-buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.google-offer :link {
+    text-decoration: none;
+}
+
+.google-offer :hover {
+    text-decoration: underline;
 }
 
 footer {
