@@ -168,6 +168,21 @@ footer {
     padding: 0;
 }
 
-.foot-2 {
-    text-align: right;
+.foot-selection-2 {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
 }
+
+.box {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.box1 { background: #16a085; }
+.box2 { background: #2ecc71; }
+.box3 { background: #bdc3c7; }
+.box4 { background: #e74c3c; }
+.box5 { background: #e67e22; }
+.box6 { background: #f1c40f; }
+.box7 { background: #3498db; }
