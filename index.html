@@ -1,68 +1,65 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-  <head>
-    <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
+    <head>
+        <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
+        <title>Google</title>
+    </head>
 
-    <title>Google Homepage</title>
-  </head>
+    <body>
+        <div class=container>
 
-  <body>
-    <div class="container">
+            <nav class="fb nav">
+                <ul class="nav-selection">
+                    <a href=#>Gmail</a>
+                    <a href=#>Images</a>
+                    <a href=# class="app-icon"><span class="material-icons-outlined" class="apps">apps</a>
+                    <a href=# id="sign-in">Sign in</a>
+                </ul>
+            </nav>
+            
+            <img class="fb google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google-logo">
 
-      <div class="sec sec1">
-        <ul class="sec-ul">
-          <li><a href="https://www.google.com/gmail/">Gmail</a></li>
-          <li><a href="https://www.google.com/imghp?hl=en">Images</a></li>
-          <li><a href="#"><span class="material-icons-outlined">apps</span></a></li>
-          <li><a href="#">Sign in</a></li>
-        </ul>
-      </div>
+            <div class="fb search-box">
+                <form action="https://www.google.com/search" method="GET" id="search-form">
+                    <span class="material-icons-outlined">search</span>
+                    <input type="text" name="q">
+                    <img src="images/Google_mic.svg" class="google-mic">
+                </form>
+            </div>
 
-      <div class="sec sec2">
-        <img src="images/google_logo.png" alt="google_logo" id="logo">
-      </div>
-    
-      <div class="sec sec3">
-        <form action="https://www.google.com/search" method="GET">
-          <span class="material-icons-outlined">search</span>
-          <input type="text" name="q"><br><br>
-            <input type="submit" class="search-button" value="Google Search">
-            <a href="https://www.google.com/doodles">
-              <input type="button" class="search-button" value="I'm Feeling Lucky" 
-              href="https://www.google.com/doodles">
-            </a>
-        </form>
-      </div>
+            <div class="fb some-buttons">
+                <button type="submit" form="search-form">Google Search</button>
+                <a href="https://www.google.com/doodles">
+                <button type="submit">I'm Feeling Lucky</button>
+                </a>
+            </div>
 
-      <div class="sec sec4">
-        <p>Google offered in: 
-          <a href="https://www.google.com/?hl=zh-TW">中文（繁體）</a>
-          <a href="https://www.google.com/?hl=zh-CN">中文（简体）</a>
-        </p>
-      </div>
+            <div class="fb google-offer">
+                Google offered in: 
+                    <a href="https://www.google.com/?hl=zh-TW">中文（繁體）</a>
+                    <a href="https://www.google.com/?hl=zh-CN">中文（简体）</a>
+            </div>
 
-      <div class="sec sec5">
-        <div class="user-country">Hong Kong</div>
-        <div class="footer-stack">
-          <div class="footer-selection">
-            <ul>
-              <li><a href="https://www.google.com/gmail/">About</a></li>
-              <li><a href="https://www.google.com/imghp?hl=en">Advertising</a></li>
-              <li><a href="https://www.google.com/imghp?hl=en">Business</a></li>
-              <li><a href="https://www.google.com/imghp?hl=en">How Search Works</a></li>
-            </ul>
-          </div>
-          <div class="footer-selection">
-            <ul>
-              <li><a href="https://www.google.com/imghp?hl=en">Privacy</a></li>
-              <li><a href="https://www.google.com/imghp?hl=en">Terms</a></li>
-              <li><a href="https://www.google.com/imghp?hl=en">Settings</a></li>
-            </ul>
-          </div>
+            <footer class="fb foot">
+                <div class="user-country">Hong Kong</div>
+                <div class="foot-selection">
+                    <div class="box box1">
+                        <a>About</a>
+                        <a>Advertising</a>
+                        <a>Business</a>
+                        <a>How Search works</a>
+                    </div>
+                    <div class="box box2">
+                        <a>Privacy</a>
+                        <a>Terms</a>
+                        <a>Settings</a>                    
+                    </div>
+
+                </div>
+                </div>
+            </footer>
         </div>
-        </div>
-      </div>
-    </div>
-
-  </body>
+    </body>
 </html>
+
