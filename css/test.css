@@ -172,11 +172,11 @@ footer {
     border: 1px solid black;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .box {
     border: 1px solid black;
-    flex-grow: 1;
 }
 
 .box1 { background: #16a085; }
